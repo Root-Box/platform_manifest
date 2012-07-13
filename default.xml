@@ -8,7 +8,7 @@
            fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
 
-  <remote  name="github"
+  <remote  name="gh"
            fetch="git://github.com/" 
            revision="jb"/>
 
