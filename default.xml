@@ -314,7 +314,7 @@
   <project path="system/vold" name="Bajee11/system_vold" remote="gh" revision="jb" />
 
   <project path="vendor/aokp" name="vendor_aokp" remote="aokp" revision="jb" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="jellybean" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="jellybean" />
 
   <project path="system/su" name="android_system_su" remote="aokp" revision="jb" />
 
