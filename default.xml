@@ -188,7 +188,7 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="jb" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/av" name="Bajee11/frameworks_av" remote="gh" revision="jb" />
-  <project path="frameworks/base" name="Bajee11/frameworks/base" remote="gh" revision="jb" />
+  <project path="frameworks/base" name="Bajee11/frameworks_base" remote="gh" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
