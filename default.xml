@@ -284,6 +284,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="prebuilt" name="AOKP/prebuilt" remote="aokp" revision="jb" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="jb" />
