@@ -192,7 +192,7 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="jb" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/av" name="Bajee11/frameworks_av" remote="gh" revision="jb" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
+  <project path="frameworks/base" name="Bajee11/frameworks_base" remote="gh" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -258,7 +258,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb" />
+  <project path="packages/apps/Settings" name="Bajee11/packages_apps_Settings" remote="gh" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -320,7 +320,7 @@
   <project path="system/vold" name="Bajee11/system_vold" remote="gh" revision="jb" />
 
   <project path="vendor/aokp" name="Bajee11/vendor_aokp" remote="gh" revision="jb" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="jellybean" />
+  <project path="vendor/samsung" name="Bajee11/proprietary_vendor_samsung" remote="gh" revision="jellybean" />
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
