@@ -26,7 +26,7 @@
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
