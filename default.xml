@@ -24,9 +24,9 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jellybean" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
+  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -220,7 +220,7 @@
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="aokp" revision="jb" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="aokp" revision="jb" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="aokp" revision="jb" />
-  <project path="hardware/ril" name="platform/hardware/ril" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="aokp" revision="jb" />
   <project path="hardware/samsung" name="Bajee11/android_hardware_samsung" remote="gh" revision="jellybean" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -313,12 +313,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
-  <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jellybean" />
+  <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="AOKP/system_media" remote="aokp" revision="jb" />
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="system/vold" name="Bajee11/system_vold" remote="gh" revision="jb" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/aokp" name="Bajee11/vendor_aokp" remote="gh" revision="jb" />
   <project path="vendor/samsung" name="Bajee11/proprietary_vendor_samsung" remote="gh" revision="jellybean" />
