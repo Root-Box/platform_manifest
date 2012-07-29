@@ -26,7 +26,7 @@
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -188,7 +188,7 @@
   <project path="external/wpa_supplicant_6" name="AOKP/external_wpa_supplicant_6" remote="aokp" revision="jb" />
   <project path="external/wpa_supplicant_8" name="AOKP/external_wpa_supplicant_8" remote="aokp" revision="jb" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="aokp" revision="jb" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="jb" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/av" name="Bajee11/frameworks_av" remote="gh" revision="jb" />
@@ -325,6 +325,10 @@
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
   <project path="platform_manifest" name="Bajee11/platform_manifest" remote="gh" revision="jb" />
 
