@@ -39,6 +39,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/i9100" name="Bajee11/android_device_samsung_i9100" remote="gh" revision="jellybean" />
+  <project path="device/samsung/i9100g" name="Bajee11/android_device_samsung_i9100g" remote="gh" revision="jellybean" />
   <project path="device/samsung/galaxys2-common" name="Bajee11/android_device_samsung_galaxys2-common" remote="gh" revision="jellybean" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1_" />
@@ -227,6 +228,7 @@
   <project path="hardware/ti/wlan" name="AOKP/android_hardware_ti_wlan" remote="aokp" revision="jb" />
   <project path="hardware/ti/wpan" name="AOKP/android_hardware_ti_wpan" remote="aokp" revision="jb" />
   <project path="kernel/samsung/smdk4210" name="teamhacksung/android_kernel_samsung_smdk4210" remote="gh" revision="jellybean" />
+  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="jellybean" />
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="jb" />
   <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
