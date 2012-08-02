@@ -157,7 +157,7 @@
   <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="external/qemu" name="AOKP/android_external_qemu" remote="aokp" revision="jb" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -245,7 +245,7 @@
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/apps/Gallery2" name="AOKP/android_packages_apps_Gallery2" remote="aokp" revision="jb" />
+  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -313,7 +313,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="sdk" name="AOKP/sdk" remote="aokp" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
   <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
