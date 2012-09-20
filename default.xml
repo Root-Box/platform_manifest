@@ -38,7 +38,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="device/samsung/i9100" name="AOKP-i9100/android_device_samsung_i9100" remote="gh" revision="jellybean" />
   <project path="device/samsung/i9100g" name="AOKP-i9100/android_device_samsung_i9100g" remote="gh" revision="jellybean" />
-  <project path="device/samsung/i9300" name="Bajee11/android_device_samsung_i9300" remote="gh" revision="jellybean" />
+  <project path="device/samsung/i9300" name="Bajee11/android_device_samsung_i9300" remote="gh" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="AOKP-i9100/android_device_samsung_galaxys2-common" remote="gh" revision="jellybean" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
