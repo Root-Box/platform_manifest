@@ -72,7 +72,7 @@
   <project path="external/dbus" name="platform/external/dbus" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
+  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb" />
   <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -331,7 +331,7 @@
 
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
+  <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb" />
 
   <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb" />
 
