@@ -42,6 +42,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="device/samsung/galaxys2-common" name="AOKP/android_device_samsung_galaxys2-common" remote="aokp" revision="jb" />
+  <project path="device/samsung/i777" name="device_samsung_i777" remote="rootbox" revision="jb" />
   <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb" />
   <project path="device/samsung/i9100g" name="AOKP/device_samsung_i9100g" remote="aokp" revision="jb" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="rootbox" revision="jb" />
