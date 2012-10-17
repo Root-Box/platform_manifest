@@ -236,7 +236,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="jellybean" />
