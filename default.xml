@@ -77,7 +77,7 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb" />
-  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
+  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="gh" revision="jellybean" />
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -324,7 +324,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="sdk" name="AOKP/android_sdk" remote="aokp" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
-  <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
+  <project path="system/core" name="android_system_core" remote="rootbox" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
