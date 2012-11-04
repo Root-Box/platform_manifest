@@ -23,7 +23,7 @@
   <default remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOKP/android_build" remote="aokp" revision="jb" >
+  <project path="build" name="android_build" remote="rootbox" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -332,7 +332,7 @@
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
-  <project path="vendor/aokp" name="vendor_rootbox" remote="rootbox" revision="jb" />
+  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
 
 
