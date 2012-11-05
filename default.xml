@@ -25,6 +25,9 @@
 
   <project path="build" name="android_build" remote="rootbox" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build" name="buildscripts" remote="rootbox" revision="jb" >
+    <copyfile src="build_all.sh" dest="build_all.sh" />
+    <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jb" />
