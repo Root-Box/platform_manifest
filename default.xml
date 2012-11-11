@@ -265,16 +265,16 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="jb" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="rootbox" revision="jb" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="rootbox" revision="jb" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb" />
+  <project path="packages/apps/ROMControl" name="ROMControl" remote="rootbox" revision="jb" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
