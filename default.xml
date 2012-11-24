@@ -19,6 +19,9 @@
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
+  <remote  name="bcf"
+           fetch="https://github.com/BrewCrewFoo/" />
+
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -31,7 +34,7 @@
     <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="bionic" remote="aokp" revision="jb" />
+  <project path="bionic" name="bionic" remote="bcf" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -73,7 +76,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="mr1-staging" />
+  <project path="external/busybox" name="external_busybox" remote="bcf" revision="jb-mr1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -272,13 +275,13 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="bcf" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aokp" revision="jb" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bcf" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -314,7 +317,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bcf" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
@@ -358,8 +361,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="rootbox" revision="jb" />
-  <project path="system/extras" name="system_extras" remote="aokp" revision="jb" />
+  <project path="system/core" name="system_core" remote="bcf" revision="jb-mr1" />
+  <project path="system/extras" name="system_extras" remote="bcf" revision="jb-mr1" />
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
