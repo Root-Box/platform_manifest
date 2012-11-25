@@ -9,12 +9,10 @@
            review="gerrit.aokp.co" />
 
   <remote  name="rootbox"
-	   fetch="https://github.com/Root-Box/"
-	   revision="jb"/>
+	   fetch="https://github.com/Root-Box/" />
 
   <remote  name="gh"
-           fetch="git://github.com/" 
-           revision="jb"/>
+           fetch="git://github.com/" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
@@ -23,7 +21,7 @@
   <default remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="rootbox" revision="jb" >
+  <project path="build" name="android_build" remote="rootbox" revision="jb-4.1.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb" >
@@ -205,7 +203,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
-  <project path="frameworks/base" name="frameworks_base" remote="rootbox" revision="jb" />
+  <project path="frameworks/base" name="frameworks_base" remote="rootbox" revision="jb-4.1.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -265,17 +263,17 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="rootbox" revision="jb" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="rootbox" revision="jb-4.1.2" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="rootbox" revision="jb" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="rootbox" revision="jb-4.1.2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/apps/ROMControl" name="ROMControl" remote="rootbox" revision="jb" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb" />
+  <project path="packages/apps/ROMControl" name="ROMControl" remote="rootbox" revision="jb-4.1.2" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb-4.1.2" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -330,21 +328,21 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="sdk" name="AOKP/android_sdk" remote="aokp" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
-  <project path="system/core" name="android_system_core" remote="rootbox" revision="jb" />
+  <project path="system/core" name="android_system_core" remote="rootbox" revision="jb-4.1.2" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
+  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-4.1.2" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
 
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
-  <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb" />
+  <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb-4.1.2" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb" />
+  <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb-4.1.2" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
