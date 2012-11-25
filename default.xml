@@ -35,9 +35,9 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="bionic" remote="bcf" revision="jb-mr1" />
-  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="mr1-staging" />
-  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="mr1-staging" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="mr1-staging" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -215,10 +215,10 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="mr1-staging" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="mr1-staging" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="mr1-staging" />
+  <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="frameworks/base" name="frameworks_base" remote="rootbox" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -228,7 +228,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="mr1-staging" />
+  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -245,18 +245,18 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="mr1-staging" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="mr1-staging" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="mr1-staging" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="mr1-staging" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="mr1-staging" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="mr1-staging" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="mr1-staging" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" />
@@ -299,7 +299,7 @@
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="rootbox" revision="jb" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="ROMControl" remote="rootbox" revision="jb" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="bcf" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
@@ -372,7 +372,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="bcf" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="mr1-staging" />
