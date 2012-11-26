@@ -340,7 +340,7 @@
 
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
-  <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb-4.1.2" />
+  <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb" />
 
   <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb-4.1.2" />
 
