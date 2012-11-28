@@ -19,9 +19,6 @@
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
-  <remote  name="bcf"
-           fetch="https://github.com/BrewCrewFoo/" />
-
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -34,7 +31,7 @@
     <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="bionic" remote="bcf" revision="jb-mr1" />
+  <project path="bionic" name="bionic" remote="aokp" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -76,7 +73,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="external_busybox" remote="bcf" revision="jb-mr1" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="mr1-staging" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -218,7 +215,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="bcf" revision="jb-mr1" />
+  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="rootbox" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -228,7 +225,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="bcf" revision="jb-mr1" />
+  <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -236,7 +233,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bcf" revision="jb-mr1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="mr1-staging" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -275,13 +272,13 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="bcf" revision="jb-mr1" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bcf" revision="jb-mr1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -291,15 +288,15 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="rootbox" revision="jb" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="rootbox" revision="jb" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="bcf" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
@@ -308,7 +305,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -317,7 +314,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bcf" revision="jb-mr1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
@@ -361,8 +358,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="bcf" revision="jb-mr1" />
-  <project path="system/extras" name="system_extras" remote="bcf" revision="jb-mr1" />
+  <project path="system/core" name="android_system_core" remote="aokp" revision="jb-mr1" />
+  <project path="system/extras" name="system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -372,9 +369,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="bcf" revision="jb-mr1" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="mr1-staging" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="mr1-staging" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="mr1-staging" />
