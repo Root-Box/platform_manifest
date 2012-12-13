@@ -49,7 +49,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="rootbox" revision="jb" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="rootbox" revision="jb" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="rootbox" revision="jb" />
