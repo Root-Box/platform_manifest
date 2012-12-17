@@ -26,7 +26,7 @@
   <project path="build" name="android_build" remote="rootbox" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb" >
+  <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb-mr1" >
     <copyfile src="build_all.sh" dest="build_all.sh" />
     <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
