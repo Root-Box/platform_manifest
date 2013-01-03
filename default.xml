@@ -38,6 +38,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="aokp" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -54,6 +55,7 @@
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="rootbox" revision="jb-mr1" />
@@ -378,6 +380,7 @@
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
