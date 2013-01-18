@@ -1,2 +1,2 @@
-$ repo init -u git@github.com:Root-Box/platform_manifest.git -b jb
+$ repo init -u git@github.com:Root-Box/platform_manifest.git -b jb-4.1.2
 $ repo sync
