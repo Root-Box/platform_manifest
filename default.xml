@@ -47,6 +47,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="rootbox" revision="jb-mr1" />
