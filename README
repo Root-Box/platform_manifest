@@ -1,2 +1,11 @@
-$ repo init -u git@github.com:Root-Box/platform_manifest.git -b jb-mr1
-$ repo sync
+Get Repo
+
+    mkdir ~/bin
+    export PATH=~/bin:$PATH
+    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+    chmod a+x ~/bin/repo
+
+Sync RootBox Sources
+
+    repo init -u https://github.com:Root-Box/platform_manifest.git -b jb-mr1
+    repo sync
