@@ -48,6 +48,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/jewel" name="Bajee11/device_htc_jewel" remote="gh" revision="jb-mr1" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="rootbox" revision="jb-mr1" />
@@ -381,9 +383,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/htc" name="vendor_htc" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
