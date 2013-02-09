@@ -56,14 +56,16 @@
   <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="rootbox" revision="jb-mr1" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="rootbox" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -267,7 +269,7 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -314,6 +316,7 @@
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="rootbox" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb-mr1" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
