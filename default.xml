@@ -66,6 +66,7 @@
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="rootbox" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
