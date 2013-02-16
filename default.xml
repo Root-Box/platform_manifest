@@ -64,6 +64,7 @@
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="rootbox" revision="jb-mr1" />
@@ -222,6 +223,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
@@ -277,6 +279,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
   <project path="kernel/lge/mako" name="faux123/mako" remote="gh" revision="enhanced_stock" /> 
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />	
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />	  	
