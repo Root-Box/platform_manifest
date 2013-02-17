@@ -16,6 +16,9 @@
   <remote  name="rootbox"
 	   fetch="https://github.com/Root-Box/" />
 
+  <remote  name="bajee"
+	   fetch="https://github.com/Bajee11/" />
+
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
