@@ -406,7 +406,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
-  <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb-mr1" />
+  <project path="packages/wallpapers/RootBox" name="RootBox_wallpapers" remote="rootbox" revision="jb-mr1" />
 
   <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb-mr1" />
 </manifest>
