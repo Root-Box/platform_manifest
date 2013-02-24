@@ -7,5 +7,5 @@ Get Repo
 
 Sync RootBox Sources
 
-    repo init -u https://github.com:Root-Box/platform_manifest.git -b jb-mr1
+    repo init -u https://github.com/Root-Box/platform_manifest.git -b jb-mr1
     repo sync
