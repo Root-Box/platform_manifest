@@ -71,7 +71,8 @@
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="rootbox" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
