@@ -297,7 +297,7 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="rootbox" revision="jb-mr1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
