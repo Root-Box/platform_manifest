@@ -44,7 +44,7 @@
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="UnicornButter/dalvik" remote="gh" revision="jb-mr1" />
+  <project path="dalvik" name="dalvik" remote="rootbox" revision="jb-mr1" />
   <project path="development" name="UnicornButter/development" remote="gh" revision="jb-mr1" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="aokp" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
