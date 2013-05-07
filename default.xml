@@ -62,6 +62,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="rootbox" revision="jb-mr1" />
