@@ -313,7 +313,7 @@
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />	  	
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="xy" revision="cm-10.1" />	  	
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr1.1" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="UnicornButter/libcore" remote="gh" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
