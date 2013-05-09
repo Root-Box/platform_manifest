@@ -60,8 +60,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="rootbox" revision="jb-mr1" />
-  <!--<project path="device/htc/jewel" name="Bajee11/device_htc_jewel" remote="gh" revision="jb-mr1" />
-  <project path="device/htc/msm8960-common" name="Bajee11/device_htc_msm8960-common" remote="gh" revision="jb-mr1" />-->
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="rootbox" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="rootbox" revision="jb-mr1" />
@@ -309,7 +308,8 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
-  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jellybean" /> 
+  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jellybean" />
+  <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />  
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />	
@@ -429,6 +429,7 @@
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
