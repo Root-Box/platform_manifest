@@ -76,6 +76,7 @@
   <project path="device/samsung/jfltecan" name="device_samsung_jfltecan" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="rootbox" revision="jb-mr1" />
@@ -313,6 +314,7 @@
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />  
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />	
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />	  	
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="xy" revision="cm-10.1" />	  	
