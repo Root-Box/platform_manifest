@@ -431,10 +431,13 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience"  remote="gh" revision="cm-10.1" />
   <project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom"  remote="gh" revision="cm-10.1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine"  remote="gh" revision="cm-10.1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
