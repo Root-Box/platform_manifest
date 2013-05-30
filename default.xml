@@ -40,8 +40,8 @@
   </project>
   <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb-mr1" >
     <copyfile src="build_release.sh" dest="build_release.sh" />
-    <copyfile src="build_server1.sh" dest="build_server1.sh" />
-    <copyfile src="build_server2.sh" dest="build_server2.sh" />
+    <copyfile src="server1.sh" dest="build_server1.sh" />
+    <copyfile src="server2.sh" dest="build_server2.sh" />
     <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
