@@ -39,9 +39,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb-mr1" >
-    <copyfile src="build_release.sh" dest="build_release.sh" />
-    <copyfile src="server1.sh" dest="build_server1.sh" />
-    <copyfile src="server2.sh" dest="build_server2.sh" />
+    <copyfile src="build_release1.sh" dest="build_release1.sh" />
+    <copyfile src="build_release2.sh" dest="build_release2.sh" />
+    <copyfile src="server1.sh" dest="server1.sh" />
+    <copyfile src="server2.sh" dest="server2.sh" />
     <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
