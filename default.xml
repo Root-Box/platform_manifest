@@ -37,7 +37,7 @@
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="dalvik" name="AOKP/platform_dalvik" remote="aokp" revision="jb" />
+  <project path="dalvik" name="AOKP/platform_dalvik" remote="cm" revision="jellybean" />
   <project path="development" name="AOKP/platform_development" remote="aokp" revision="jb" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
