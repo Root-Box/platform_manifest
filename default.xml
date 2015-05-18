@@ -31,7 +31,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" groups="pdk,tradefed" remote="aokp" revision="lollipop" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="rootbox" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -544,8 +544,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="lollipop" />
-  <project path="vendor/rootbox/bot" name="pseudo_buildbot" remote="rootbox" revision="lollipop" />
-  <project path="vendor/rootbox/resources" name="vendor_rootbox_resources" remote="rootbox" revision="lollipop" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="cm" revision="cm-12.0" groups="notdefault,vendor,asus,grouper" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="cm" revision="cm-12.0" groups="notdefault,vendor,nvidia,grouper" />
   <project path="vendor/oppo" name="vendor_oppo" remote="rootbox" revision="lollipop" groups="notdefault,vendor,oppo,oneplus" />
