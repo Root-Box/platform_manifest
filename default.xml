@@ -543,7 +543,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="lollipop" />
+  <project path="vendor/rb" name="vendor_rootbox" remote="rootbox" revision="lollipop" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="cm" revision="cm-12.0" groups="notdefault,vendor,asus,grouper" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="cm" revision="cm-12.0" groups="notdefault,vendor,nvidia,grouper" />
   <project path="vendor/oppo" name="vendor_oppo" remote="rootbox" revision="lollipop" groups="notdefault,vendor,oppo,oneplus" />
