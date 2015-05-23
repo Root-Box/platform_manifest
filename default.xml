@@ -68,10 +68,10 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="notdefault,device,fugu" />
 
-  <project path="device/oppo/common" name="device_oppo_common" remote="rootbox" revision="lollipop" groups="notdefault,device,find7,find7s" />
-  <project path="device/oppo/find7" name="device_oppo_find7" remote="rootbox" revision="lollipop" groups="notdefault,device,find7" />
-  <project path="device/oppo/find7-common" name="device_oppo_find7-common" remote="rootbox" revision="lollipop" groups="notdefault,device,find7,find7s" />
-  <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" remote="rootbox" revision="lollipop" groups="notdefault,device,find7,find7s" />
+  <project path="device/oppo/common" name="device_oppo_common" remote="rootbox" />
+  <project path="device/oppo/find7" name="device_oppo_find7" remote="rootbox" />
+  <project path="device/oppo/find7-common" name="device_oppo_find7-common" remote="rootbox" />
+  <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" remote="rootbox" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" groups="qcom" remote="cm" revision="cm-12.0" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" groups="qcom" remote="cm" revision="cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
