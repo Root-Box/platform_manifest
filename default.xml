@@ -309,7 +309,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" revision="cm-12.0" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs" remote="rootbox" revision="lollipop" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs" remote="rootbox" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -432,7 +432,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="lollipop" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="lollipop" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -546,7 +546,7 @@
   <project path="vendor/rb" name="vendor_rootbox" remote="rootbox" revision="lollipop" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="cm" revision="cm-12.0" groups="notdefault,vendor,asus,grouper" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="cm" revision="cm-12.0" groups="notdefault,vendor,nvidia,grouper" />
-  <project path="vendor/oppo" name="vendor_oppo" remote="rootbox" revision="lollipop" groups="notdefault,vendor,oppo,oneplus" />
+  <project path="vendor/oppo" name="vendor_oppo" remote="rootbox" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="cm" revision="cm-12.0" groups="notdefault,vendor" />
 
   <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="lollipop" />
